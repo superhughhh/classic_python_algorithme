@@ -13,3 +13,10 @@ def reverse_string(str):
 
 inv_str = reverse_string(my_str)
 print(inv_str)
+
+
+#the special hask python version 
+
+str = "SALUT A TOUS"
+
+print(str[::-1])
