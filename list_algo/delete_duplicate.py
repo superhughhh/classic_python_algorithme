@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 #here, i just use a set collection, so easy !
 
 list_names = ["Pat", "Rick", "Frank", "Bryan", "Scott", "Scott", "Peter", "Bryan"]

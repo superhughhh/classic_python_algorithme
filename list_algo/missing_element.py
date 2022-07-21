@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 ##This algo compare two list,check the missing elements and create a list with them
 
 list_a = [4, 2, 7, 1]
