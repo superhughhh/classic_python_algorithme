@@ -1,15 +1,14 @@
 #coding: utf-8
-#this algo allows to transform all the charatcer of a string in uppercase without use upper function
+#this algo allows to transform all the character of a string in lowercase without use upper function
 
 
 
-
-def lowerToUpper(str):
+def upperToLower(str):
     result_str = ""
     for i in str:
         i_dec = ord(i)
-        if i_dec >= 97 and i_dec<= 122:
-            i_dec = i_dec - 32
+        if i_dec >= 65 and i_dec<= 90:
+            i_dec = i_dec + 32
             i_upper = chr(i_dec)
             result_str += i_upper
         else: 
@@ -17,4 +16,4 @@ def lowerToUpper(str):
     return result_str
 
 s = "HugUes!!"
-print(lowerToUpper(s))
+print(upperToLower(s))
